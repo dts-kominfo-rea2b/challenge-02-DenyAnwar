@@ -37,7 +37,7 @@ function lakukanLooping(arrPegawai) {
       yang berisi jumlah pria dari masing masing pegawai
   */
 
-  let countPria = 0;
+  let countPria = 1;
   let jumlahPria = 0;
 
   for (let i = 0; i < dataYangAkanDilooping.length; i++) {
@@ -52,7 +52,7 @@ function lakukanLooping(arrPegawai) {
     TODO 3: Buatlah sebuah variabel bernama "jumlahWanita"
       yang berisi jumlah wanita dari masing masing pegawai
   */
-  let countWanita = 0;
+  let countWanita = 1;
   let jumlahWanita = 0;
 
   for (let i = 0; i < dataYangAkanDilooping.length; i++) {
