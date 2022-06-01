@@ -38,7 +38,7 @@ function lakukanLooping(arrPegawai) {
   */
 
   let countPria = 0;
-  let jumlahPria = null;
+  let jumlahPria = 0;
 
   for (let i = 0; i < dataYangAkanDilooping.length; i++) {
     let obj = dataYangAkanDilooping[i];
@@ -53,7 +53,7 @@ function lakukanLooping(arrPegawai) {
       yang berisi jumlah wanita dari masing masing pegawai
   */
   let countWanita = 0;
-  let jumlahWanita = null;
+  let jumlahWanita = 0;
 
   for (let i = 0; i < dataYangAkanDilooping.length; i++) {
     let obj = dataYangAkanDilooping[i];
@@ -62,6 +62,7 @@ function lakukanLooping(arrPegawai) {
       jumlahWanita = countWanita++;
     }
   }
+
   /*
     TODO 4: Buatlah sebuah variabel bernama "komentar"
       yang akan mengomentari apakah lebih banyak Pria atau Wanita
@@ -73,7 +74,7 @@ function lakukanLooping(arrPegawai) {
       Apabila imbang, maka komentar akan berisi:
         "Jumlah Pria dan Wanita berimbang"
   */
-  let komentar = null;
+  let komentar = String;
 
   if (jumlahPria > jumlahWanita) {
     komentar = "Jumlah Pria lebih banyak dari Wanita";
